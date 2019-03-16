@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H5新增标签和属性</title>
+</head>
+<br>
+<input type="text" value="请输入关键词" list="word">
+<datalist id="word">
+    <option>候选词1</option>
+    <option>候选词2</option>
+    <option>候选词3</option>
+</datalist>
+
+</br>
+</br>
+</br>
+<fieldset>
+    <legend>用户登录</legend>
+    用户名：<input type="text"/> </br>
+    密码：<input type="password"/>
+</fieldset>
+
+</br>
+</br>
+</br>
+<fieldset>
+    <legend>H5新增类型</legend>
+    <br action="index.php" method="post">
+    邮箱：<input type="email"/></br>
+    手机：<input type="tel"/></br>
+    数字：<input type="number"/></br>
+    网址：<input type="url"/></br>
+    搜索：<input type="search"/></br>
+    区域：<input type="range"/></br>
+    时间：<input type="time"/></br>
+    年月日：<input type="date"/></br>
+    month：<input type="month"/></br>
+    week：<input type="week"/></br>
+    color：<input type="color"/></br>
+    <input type="submit"/>
+    </form>
+</fieldset>
+
+
+
+</br>
+</br>
+</br>
+用户名：<input type="text" placeholder="请输入用户名" autofocus="autofocus"/></br>
+上传头像: <input  type="file" multiple="multiple"/>
+
+</br>
+使用autocomplete 要有提交按钮 ，input 要有name
+<form action="">
+   姓名： <input type="text" autocomplete="on" name="username" required accesskey="s"/>
+    <input type="submit"/>
+</form>
+
+</br>
+音乐：
+<audio src="sound/01 To Say Goodbye (Original Mix).mp3" autoplay="autoplay" controls loop="-1"></audio>
+</br>
+为了兼容
+<audio autoplay controls>
+    <source src="sound/01 To Say Goodbye (Original Mix).mp3"/>
+    <source src="sound/music.ogg"/>
+</audio>
+
+</br>
+<video autoplay controls>
+    <source src="video/mp4.mp4"/>
+    <source src="video/movie04.ogg"/>
+</video>
+</body>
+</html>
