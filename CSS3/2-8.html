@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结构选择器</title>
+    <style>
+        li:first-child{
+            /*选择第一个*/
+            color: pink;
+        }
+        li:last-child{
+            /*选择最后个*/
+            color:blue;
+        }
+        /*li:nth-child(4){*/
+            /*!*选择第四个*!*/
+            /*color: orange;*/
+        /*}*/
+        li:nth-child(odd){
+            /* odd 奇数  n从0开始 n 2n */
+            color: red;
+        }
+        li:nth-child(even){
+            /* even 偶数   */
+            color: greenyellow;
+        }
+
+        li:nth-last-child(even){
+            /*从后数的 对应奇数*/
+            color:gold;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <li>第1个孩子</li>
+    <li>第2个孩子</li>
+    <li>第3个孩子</li>
+    <li>第4个孩子</li>
+    <li>第5个孩子</li>
+    <li>第6个孩子</li>
+    <li>第7个孩子</li>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器 必须按照lvha顺序</title>
+    <style>
+        a:link {
+            /*未访问链接*/
+           font-size: 20px;
+            color: red;
+        }
+        a:visited {
+            /*访问后链接*/
+            color: green;
+        }
+
+        a:hover {
+            /*悬浮链接*/
+           color: orange;
+        }
+
+        a:active {
+            /*鼠标按住链接*/
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<div><a href="">秒杀</a>
+    <a href="">抢购</a>
+</div>
+</body>
+</html>
