@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input标签</title>
+</head>
+<body>
+input标签
+<p>name: <input type="text" value="默认值"/> </p>
+<p>pwd: <input type="password" maxlength="5"/></p>
+<p>radio: <input type="radio" name="sex" checked="checked"/>男  <input type="radio" name="sex"/>女</p>
+<p>checkbox: <input type="checkbox" name="web" checked="checked"/>html <input type="checkbox" name="web"/>css </p>
+<p>button: <input type="button" value="btn"/></p>
+<p>submit: <input type="submit"/></p>
+<p>reset: <input type="reset"/></p>
+<p>imagebtn: <input type="image" src="img/img.jpg" value="图片按钮"/></p>
+<p>file: <input type="file"/></p>
+
+<label>点label时候就可以定位光标<p>name: <input type="text" value="默认值"/> </p> </label>
+<label for="two"><p>name1: <input type="text" value="默认值"/> name2: <input type="text" value="默认值" id="two"/> </p></label>
+
+
+留言板
+<textarea></textarea>
+
+
+下拉框
+<select name="addr" id="adr">
+    <option value="">北京</option>
+    <option value="" selected="selected">上海</option>
+    <option value="">广州</option>
+</select>
+
+
+<h1>表单域</h1>
+<form action="index.php" method="get">
+   name: <input type="text" name="" >
+    pwd: <input type="password" name="" >
+    <input type="submit" value="提交">
+    <input type="reset" value="重置">
+</form>
+</body>
+</html>
