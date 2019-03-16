@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+表格属性
+border 控制单元格外边框，cellspacing 控制单元格之间距离， cellpadding字和单元格上下左右之间的距离 align对齐到网页中心
+
+<table border="1px" cellspacing="0px" cellpadding="6px" width="500px" height="400px" align="center">
+    <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+    </tr>
+</table>
+
+
+表头
+<table border="1px" align="center">
+    <caption>表格标题</caption>
+    <thead>
+        <tr>
+            <th>表头1</th>
+            <th>表头2</th>
+            <th>表头3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>表格1</td>
+            <td>表格2</td>
+            <td>表格3</td>
+        </tr>
+    </tbody>
+</table>
+
+
+合并单元格
+<table border="1px">
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="2">跨2行合并单元格</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td colspan="2">跨两列合并单元格</td>
+    </tr>
+</table>
+</body>
+</html>
