@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style>
+        a[title]{
+            color:red;
+        }
+        input[type=text]
+        {
+            color: blue;
+        }
+        div[class^=font]{
+            /*以font开头的属性*/
+            color:red;
+        }
+        div[class$=footer]{
+            /*以footer结尾的属性*/
+            color:green;
+        }
+        div[class*=tao]{
+            /*包含tao在任意位置的属性*/
+            color:deepskyblue;
+        }
+    </style>
+</head>
+<body>
+<a href="http://www.baidu.com" title="baidu">百度</a>
+<a href="http://www.google.com" >谷歌</a>
+<input type="text"  value="文本"/>
+<input type="text" value="文本"/>
+<input type="text" value="文本"/>
+<input type="button" value="按钮"/>
+<input type="button" value="按钮"/>
+
+<div class="font12">属性选择器</div>
+<div class="font12">属性选择器</div>
+<div class="font24">属性选择器</div>
+<div class="font24">属性选择器</div>
+<div class="jd-footer">属性footer</div>
+<div class="sub-footer">属性footer</div>
+<div class="news-tao-header">header</div>
+<div class="tao-header">header</div>
+</body>
+</html>
