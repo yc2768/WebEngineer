@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        .slider{
+            width: 520px;
+            height: 280px;
+            background-color: pink;
+            margin: 50px auto;
+            position: relative;/*  子绝父相 */
+        }
+        .arrow-l,
+        .arrow-r{
+            position: absolute;
+            width: 24px;
+            height: 36px;
+            top: 50%;   /* 这个% 是按照父级高度的来进行计算 */
+            margin-top: -18px; /* 上走是负值， 自己高度的一半 */
+        }
+        .arrow-l{
+            left: 0;
+        }
+        .arrow-r{
+            right: 0;
+        }
+        .circle{
+            width: 65px;
+            height: 13px;
+            background-color: rgba(255,255,255,0.3);
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -32px;
+            border-radius: 6px;
+        }
+        .circle li{ /* 权重 0011 */
+            width: 9px;
+            height: 9px;
+            background-color: #B7B7B7;
+            float: left;
+            margin: 2px;
+            border-radius: 50%;
+        }
+        .circle .current /* 注意权重问题， 优先级  0020 */
+        {
+            background-color: #f40;
+        }
+
+    </style>
+</head>
+<body>
+<div class="slider">
+    <img src="" alt="">
+    <a href="#" class="arrow-l"><img src="img/left.png" alt=""></a>
+    <a href="#" class="arrow-r"><img src="img/right.png" alt=""></a>
+    <ul class="circle"><!-- circle  小圆点 -->
+        <li class="current"></li> <!-- current 翻译就是 当前的意思 -->
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            text-align: center;
+            line-height: 100px;
+            margin: 100px auto;
+            position: relative;
+        }
+        div img{
+            position: absolute;
+            left: 110px;
+            top: 0;
+            display: none;
+        }
+        div:hover img{
+            display: block;/* 我们鼠标经过div 的时候， 里面的 那个 img图片会显示出来 */
+        }
+    </style>
+</head>
+<body>
+<div>
+    扫二维码
+    <img src="img/erweima.png"  alt="">
+</div>
+</body>
+</html>
