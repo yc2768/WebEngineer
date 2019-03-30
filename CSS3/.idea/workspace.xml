@@ -27,27 +27,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="119" />
+          <entry key="html" value="123" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="119" />
+          <entry key="HTML" value="123" />
           <entry key="SVG" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="14" />
-          <entry key="html" value="10130" />
+          <entry key="html" value="10155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="14" />
-          <entry key="HTML" value="10130" />
+          <entry key="HTML" value="10155" />
         </counts>
       </usages-collector>
     </session>
@@ -55,7 +55,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/伸缩布局排列方式.html">
+        <entry file="file://$PROJECT_DIR$/html/伸缩布局排列方式.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
               <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
@@ -63,11 +63,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/携程网.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/携程网.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="330">
+              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFC清除浮动.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFC解决外边距合并.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BFC产生右侧自适应盒子.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/背景渐变.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -93,11 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/绝对定位是脱标的.html" />
-        <option value="$PROJECT_DIR$/父级没有定位.html" />
-        <option value="$PROJECT_DIR$/父级有定位.html" />
-        <option value="$PROJECT_DIR$/子绝父相.html" />
-        <option value="$PROJECT_DIR$/定位练习-哈根达斯.html" />
         <option value="$PROJECT_DIR$/课堂练习-淘宝轮播图.html" />
         <option value="$PROJECT_DIR$/固定定位.html" />
         <option value="$PROJECT_DIR$/仿新浪固定头部和广告.html" />
@@ -144,6 +175,11 @@
         <option value="$PROJECT_DIR$/伸缩布局固定宽度.html" />
         <option value="$PROJECT_DIR$/伸缩布局排列方式.html" />
         <option value="$PROJECT_DIR$/携程网.html" />
+        <option value="$PROJECT_DIR$/html/携程网.html" />
+        <option value="$PROJECT_DIR$/BFC清除浮动.html" />
+        <option value="$PROJECT_DIR$/BFC解决外边距合并.html" />
+        <option value="$PROJECT_DIR$/BFC产生右侧自适应盒子.html" />
+        <option value="$PROJECT_DIR$/背景渐变.html" />
       </list>
     </option>
   </component>
@@ -229,12 +265,12 @@
       <workItem from="1553323078490" duration="10664000" />
       <workItem from="1553416246694" duration="624000" />
       <workItem from="1553729644900" duration="1710000" />
-      <workItem from="1553909661201" duration="16662000" />
+      <workItem from="1553909661201" duration="17050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66706000" />
+    <option name="totallyTimeSpent" value="67094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="695" y="92" width="974" height="833" extended-state="0" />
@@ -285,34 +321,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/绝对定位是脱标的.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/父级有定位.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/父级没有定位.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/子绝父相.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/定位练习-哈根达斯.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -452,7 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/王者荣耀导航栏.html">
+    <entry file="file://$PROJECT_DIR$/html/王者荣耀导航栏.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
@@ -504,143 +512,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2D变形-移动.html">
+    <entry file="file://$PROJECT_DIR$/html/2D变形-移动.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2D变形-缩放.html">
+    <entry file="file://$PROJECT_DIR$/html/2D变形-缩放.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/让定位的盒子居中对齐.html">
+    <entry file="file://$PROJECT_DIR$/html/让定位的盒子居中对齐.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2D变形-旋转.html">
+    <entry file="file://$PROJECT_DIR$/html/2D变形-旋转.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/变形中心点.html">
+    <entry file="file://$PROJECT_DIR$/html/变形中心点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/旋转的楚乔传.html">
+    <entry file="file://$PROJECT_DIR$/html/旋转的楚乔传.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2D变形-倾斜.html">
+    <entry file="file://$PROJECT_DIR$/html/2D变形-倾斜.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotate.html">
+    <entry file="file://$PROJECT_DIR$/html/rotate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3D变形-移动.html">
+    <entry file="file://$PROJECT_DIR$/html/3D变形-移动.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/translate3d.html">
+    <entry file="file://$PROJECT_DIR$/html/translate3d.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/开门大吉.html">
+    <entry file="file://$PROJECT_DIR$/html/开门大吉.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/两面翻转的图片.html">
+    <entry file="file://$PROJECT_DIR$/html/两面翻转的图片.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/多组动画.html">
+    <entry file="file://$PROJECT_DIR$/html/多组动画.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/体会动画.html">
+    <entry file="file://$PROJECT_DIR$/html/体会动画.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/无缝滚动效果.html">
+    <entry file="file://$PROJECT_DIR$/html/无缝滚动效果.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/传统三等份.html">
+    <entry file="file://$PROJECT_DIR$/html/传统三等份.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/伸缩布局三等份.html">
+    <entry file="file://$PROJECT_DIR$/html/伸缩布局三等份.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/伸缩布局固定宽度.html">
+    <entry file="file://$PROJECT_DIR$/html/伸缩布局固定宽度.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/伸缩布局排列方式.html">
+    <entry file="file://$PROJECT_DIR$/html/伸缩布局排列方式.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/携程网.html">
+    <entry file="file://$PROJECT_DIR$/html/携程网.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="330">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFC清除浮动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFC解决外边距合并.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BFC产生右侧自适应盒子.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/背景渐变.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
