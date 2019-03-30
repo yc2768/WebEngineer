@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+   @keyframes go {
+       0%{
+           transform: translate3d(0,0,0);
+       }
+       25%{
+           transform: translate3d(800px,0,0);
+       }
+       50% {
+           transform: translate3d(800px, 400px, 0);
+
+       }
+       75% {
+           transform: translate3d(0, 400px, 0);
+
+       }
+       100% {
+           transform: translate3d(0, 0, 0);  /*100% 相当于结束位置 to*/
+       }
+   }
+
+   div{
+       width: 100px;
+       height: 100px;
+       background-color: pink;
+       animation: go 2s infinite; /*引用动画*/
+   }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
