@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 写一个函数，可以求n-m之间所有数的和
+        // 在函数声明的时候。参数 叫做形参  形式参数（占位） 没有值
+
+        function getSum(m,n) {
+            var sum=0;
+            for(var i=m;i<=n;i++)
+            {
+                sum+=i;
+            }
+            console.log(sum);
+        }
+
+        // 函数调用
+        // 在函数调用的时候，我们需要给形参传递值
+        // 实参（实际参数）  把具体的值传递给形参
+        getSum(1,5);
+        getSum(6,10);
+
+
+        // // 写一个函数，计算两个数的和
+        // function getSum(a, b) {
+        //   a = 100;
+        //   b = 1000;
+        //   console.log(a + b);
+        // }
+
+        // // getSum(10, 100);
+        // var x = 1;
+        // var y = 2;
+        // getSum(x, y);
+
+        // // 如果我们在函数内部修改形参的值，是否会影响函数外部实参的值？
+        // // 当我们在函数内部修改形参的值，不会影响外部的实参的值
+        // // 是因为调用函数的时候，是吧实参的值复制了一份赋给形参的
+        // console.log(x, y);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

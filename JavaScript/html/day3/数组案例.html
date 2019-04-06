@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 求一组数中的所有数的和和平均值
+        /*var numbers = [35, 12, 35, 90, 11, 12];
+        var sum = 0;// 和
+        var avg;// 平均值
+        // for (var i = 0; i <= numbers.length - 1; i++) // 遍历数组
+        for (var i = 0; i < numbers.length; i++) {
+          // sum = sum + numbers[i];
+          sum += numbers[i];
+        }
+        avg = sum / numbers.length;
+        console.log('这组数的和：' + sum);
+        console.log('这组数的平均值：' + avg);*/
+
+
+        // 求一组数中的最大值和最小值，以及所在位置(最大值和最小值在这组数中的位置)
+        // 求一组数中的最大值
+       /* var numbers=[65,13,101,88,10,25];
+        var max=numbers[0];
+        var maxIndex=0;
+        for (var i=1;i<numbers.length;i++)
+        {
+            if(max<numbers[i])
+            {
+                max=numbers[i];
+                maxIndex=i;
+            }
+        }
+        console.log(max,maxIndex);*/
+
+
+
+        // 翻转数组   1，2,3,4  -》 4,3,2,1
+        var numbers = [4, 5, 7, 9];   // 生成一个新的数组  数组中存储 9 7 5 4
+        var newArray = [];
+        for (var i = numbers.length - 1; i >= 0; i--) {
+            newArray[newArray.length] = numbers[i];
+        }
+        console.log(newArray);
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
