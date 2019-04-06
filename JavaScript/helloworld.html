@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 2.页面嵌入js  -->
+    <script>
+        alert('嵌入js')
+    </script>
+    <!-- 3.引入外部js -->
+    <script src="js/index.js">
+        alert('test');   /*这句不起作用*/
+    </script>
+</head>
+<body>
+<!-- 1.行内js -->
+<input type="button"  onclick="alert('行内js')"  value="我是一个按钮" >
+</body>
+</html>
