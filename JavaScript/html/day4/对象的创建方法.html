@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        // 1 对象字面量
+        /*var hero={
+            name:'黄忠',
+            weapon:'弓箭',
+            equipment: ['头盔','靴子','盔甲'],
+            blood: 100,
+            attack:function () {
+                console.log(this.name+"：射箭");
+            },
+            run:function () {
+                console.log(this.name+": 加速跑 ");
+            }
+        }
+
+        console.log(hero.name);
+        hero.attack();*/
+
+
+
+        // 2 new Object()
+        // Object 是一个构造函数
+        // new 的方式来调用构造函数
+        // new Object() 调用构造函数   会在内存中创建一个对象
+        /*  var hero=new Object();// 创建了一个空的对象
+         // 打印一个不存在的属性 输出 undefined
+         console.log(hero.name);
+         // 属性
+         // JavaScript的动态特性
+         hero.name='黄忠';
+         // 方法
+         hero.attack = function () {
+           console.log(this.name + ': 射箭');
+         }*/
+
+
+        // 3 工厂方法  ctr+alt+l格式化代码
+        /*function createHero(name, blood) {
+            var hero = new Object(); //返回一个空的对象
+            hero.name = name;
+            hero.blood = blood;
+            // 方法
+            hero.attack = function () {
+                console.log(this.name + '：攻击');
+            }
+
+             return hero;
+        }
+        var h1=createHero('黄忠',1000);
+        var h2=createHero('关羽',1000);*/
+
+
+        // 4 自定义构造函数
+        // new Object();
+        // new Hero();
+        // 帕斯卡命名  第一个单词的第一个字母大写，后续的每一个单词的第一个字母都大写
+        // 自定义构造函数
+        function Hero(name,blood) {
+            // this 动态的给对象增加成员
+            // this 指向了当前对象
+            this,name=name;
+            this.blood=blood;
+            this.attack=function () {
+                console.log(this.name+":攻击");
+            }
+
+        }
+
+        var h1=new Hero('张飞',800);
+        var h2=new Hero('关羽',1000);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
